@@ -57,9 +57,9 @@ button:active{
 }
 @font-face {
     font-family: 'robotic';
-    src: url(/font/disposabledroid-bb/DisposableDroidBB_bldital.ttf);
+    src: url("../font/disposabledroid-bb/DisposableDroidBB_bldital.ttf");
 }
 @font-face {
     font-family: 'digital_clock';
-    src: url(/font/digital-7/digital-7.ttf);
+    src: url("../font/digital-7/digital-7.ttf");
 }
