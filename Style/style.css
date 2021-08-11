@@ -57,7 +57,7 @@ button:active{
         margin-top:10px;
         margin:auto;
         padding:0;
-        padding-bottom:0;
+        padding-bottom:10px;
         background-color: blue;
     }
     button{
