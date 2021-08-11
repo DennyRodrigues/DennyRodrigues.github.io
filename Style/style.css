@@ -29,7 +29,6 @@ body{
     color:red;
     font-size:2em;
     font-family: 'digital_clock';
-    overflow:visible;
     text-align: center;
 }
 label{
