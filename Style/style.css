@@ -63,8 +63,9 @@ button:active{
         font-size: 1em;
     }
     .timer_Box{
-        width:40%;
-        font-size:2em;
+        box-sizing: content-box;
+        width: fit-content;
+        font-size:3em;
     }
 }
 @font-face {
