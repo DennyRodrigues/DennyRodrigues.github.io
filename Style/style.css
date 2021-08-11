@@ -58,6 +58,7 @@ button:active{
         margin:auto;
         padding:0;
         padding-bottom:0;
+        background-color: blue;
     }
     button{
         font-size: 1em;
