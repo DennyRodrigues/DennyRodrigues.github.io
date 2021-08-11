@@ -25,12 +25,12 @@ body{
 
 .timer_box{
     padding:20px 0px 20px 0px;
-    width:15%;
     box-sizing: border-box;
     color:red;
-    font-size:2em;
     font-family: 'digital_clock';
     text-align: center;
+    font-size: 2em;
+    width:35%;
 }
 label{
     padding: 3%;
@@ -60,12 +60,24 @@ button:active{
         padding:0;
         padding-bottom:40px;
         padding-top: 20px;
-        background-color: blue;
+        background-color: greenyellow;
         margin-bottom: 0;
         min-height: 768px;
+        
     }
     button{
         font-size: 1em;
+    }
+    .timer_box{
+        font-size: 2em;
+        width:35%;
+    }
+    #minute{
+        float: left;
+    }
+    #seconds{
+        float:right;
+        margin-right:20px;
     }
     
 }
