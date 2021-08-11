@@ -1,8 +1,9 @@
 body{
     margin:0;
     padding:0;
-    background:#dddddd;
+    background:aquamarine;
     margin:auto;
+    overflow: hidden;
 }
 #clock{
     border: 5px solid black;
@@ -13,6 +14,7 @@ body{
     margin-top: 50px;
     padding:50px;
     font-family: 'robotic';
+    overflow: hidden;
 }
 #phrase{
     text-transform:uppercase;
@@ -21,7 +23,6 @@ body{
     display:inline;
 }
 .timer_box{
-    font-size:40px;
     padding:20px 0px 20px 0px;
     width:15%;
     box-sizing: border-box;
@@ -32,7 +33,7 @@ body{
     text-align: center;
 }
 label{
-    padding: 4%;
+    padding: 3%;
     
 }
 button{
@@ -53,7 +54,21 @@ button:active{
 }
 @media(max-width: 768px){
 
-
+    #clock{
+        width:100%;
+        margin-top:10px;
+        margin:auto;
+        padding:0;
+        padding-bottom:70px;
+    }
+    button{
+        font-size: 1em;
+    }
+    .timer_Box{
+        width:40%;
+        font-size:2em;
+        padding:0px 20px 0px 0px;
+    }
 }
 @font-face {
     font-family: 'robotic';
