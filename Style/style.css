@@ -66,6 +66,7 @@ button:active{
         
     }
     button{
+        padding-top:10px;
         font-size: 1em;
     }
     .timer_box{
@@ -78,7 +79,8 @@ button:active{
         float: left;
     }
     label{
-        padding: 3%;
+        padding-right: 10px;
+        padding-left:10px;
     }
     #seconds{
         float:right;
