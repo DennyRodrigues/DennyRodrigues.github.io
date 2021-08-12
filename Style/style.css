@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background:grey;
+    background:gray;
     margin:auto;
     overflow: hidden;
     box-sizing:border-box;
@@ -54,18 +54,13 @@ button:active{
 }
 
 @media(max-width: 768px){
-    body{
-        overflow:scroll;
-    }
     #clock{
-        width:100%;
+        width:fit-content;
         margin: 0;
         padding:0;
-        padding-bottom:40px;
         padding-top: 20px;
         margin-bottom: 0;
         min-height: 768px;
-        
     }
     button{
         padding-top:10px;
