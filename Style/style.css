@@ -73,7 +73,7 @@ button:active{
         font-size: 2em;
         width:35%;
         overflow: visible;
-        padding-bottom: 10px;
+        min-height: 2.1em;
     }
     #minute{
         float: left;
