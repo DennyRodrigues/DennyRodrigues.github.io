@@ -54,8 +54,11 @@ button:active{
 }
 
 @media(max-width: 768px){
+    body{
+        overflow:scroll;
+    }
     #clock{
-        width:fit-content;
+        width:100%;
         margin: 0;
         padding:0;
         padding-bottom:40px;
