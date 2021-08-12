@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background:aquamarine;
+    background:grey;
     margin:auto;
     overflow: hidden;
     box-sizing:border-box;
@@ -26,7 +26,7 @@ body{
 .timer_box{
     padding:20px 0px 20px 0px;
     box-sizing: border-box;
-    color:red;
+    color:black;
     text-align: center;
     font-size: 2em;
     width:35%;
