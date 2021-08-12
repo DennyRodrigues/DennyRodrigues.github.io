@@ -72,7 +72,6 @@ button:active{
     .timer_box{
         font-size: 2em;
         width:35%;
-        overflow: visible;
         min-height: 2.1em;
     }
     #minute{
